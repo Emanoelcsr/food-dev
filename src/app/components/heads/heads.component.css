@@ -1,0 +1,24 @@
+section{
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secundaryColor);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.info-head{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
