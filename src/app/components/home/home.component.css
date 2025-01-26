@@ -5,9 +5,16 @@
 }
 
 .log-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    background-color: var(--secundaryColor);
+    border-radius: 50%;
     position: relative;
     top: -80px;
-}
+
+    }
 
 main{
     display: flex;
