@@ -1,0 +1,47 @@
+.content-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.classbox, .btn {
+    width: 100%;
+    padding: 0 15px;
+    background-color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.inp, .btn{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 230px;
+    border-radius: 50px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.redirection-pages a{
+    color: var(--secundaryColor);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.redirection-pages a:hover{
+    color: red;
+}
+
+.redirection-pages a:active{
+    color: rgb(57, 9, 63);
+}

@@ -4,15 +4,15 @@
     gap: 10px 0;
 }
 
-.classbox, button {
+.classbox, .btn {
     width: 100%;
-    padding: 0 10px;
-    background-color: white;
+    padding: 0 15px;
+    background-color: rgb(255, 255, 255);
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 50px;
     border: none;
     font-weight: 700;
     text-transform: uppercase;
@@ -24,6 +24,8 @@
     background-color: transparent;
     border: none;
     height: 100%;
+    width: 230px;
+    border-radius: 50px;
 }
 
 input:focus{
